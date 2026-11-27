@@ -1,11 +1,18 @@
-# How Far Does a Push Travel?
+# How Far Does a Push Travel? Paired Action Responses in Contact-Graph World Models
 
-Paired Action Responses in Contact-Graph World Models. The experiments compare contact propagation, event-based predictions and learned corrections using paired initial states. The physical comparison uses endpoint poses from independently reset MIT MCube pushes.
-  
+The experiments compare contact propagation, event-based predictions and learned corrections using paired initial states. The physical comparison uses endpoint poses from independently reset MIT MCube pushes.
+
+## Manuscript authors
+
+1. Yunjian Zhang — Shenzhen Kaihong Digital Industry Development Co., Ltd. [yunjzhang@xmu.edu.cn](mailto:yunjzhang@xmu.edu.cn) · [ORCID 0000-0002-0303-3671](https://orcid.org/0000-0002-0303-3671)
+2. Ying Liu — Southern University of Science and Technology. [Liuy63@sustech.edu.cn](mailto:Liuy63@sustech.edu.cn) · [ORCID 0000-0001-6016-3184](https://orcid.org/0000-0001-6016-3184)
+3. Aobo Li — Shenzhen Kaihong Digital Industry Development Co., Ltd. [ali09@qub.ac.uk](mailto:ali09@qub.ac.uk) · [ORCID 0009-0001-6868-9495](https://orcid.org/0009-0001-6868-9495)
+4. Yilun Wu — Shenzhen Kaihong Digital Industry Development Co., Ltd. [wuyilun310@gmail.com](mailto:wuyilun310@gmail.com) · [ORCID 0000-0001-5169-4864](https://orcid.org/0000-0001-5169-4864)
+5. Mu-Jiang-Shan Wang, Member, IEEE (corresponding author) — Shenzhen Kaihong Digital Industry Development Co., Ltd. and Harbin Institute of Technology. [wangmujiangshan-qy@kaihong.com](mailto:wangmujiangshan-qy@kaihong.com) and [wmjsdr0@gmail.com](mailto:wmjsdr0@gmail.com) · [ORCID 0000-0003-0950-4558](https://orcid.org/0000-0003-0950-4558)
 
 ## Verify the published results
 
-Download and extract the [v1.0.0 release](https://github.com/LudwigWangMu/contact-graph-action-responses/releases/tag/v1.0.0), then run the following command in the extracted directory using Python 3.12. It checks the distributed file hashes and recomputes selected results from the archived observation-level records. The check runs offline with the Python standard library.
+Download and extract the [v1.0.1 release](https://github.com/LudwigWangMu/contact-graph-action-responses/releases/tag/v1.0.1), then run the following command in the extracted directory using Python 3.12. It checks the distributed file hashes and recomputes selected results from the archived observation-level records. The check runs offline with the Python standard library.
 
     python verify.py
 
